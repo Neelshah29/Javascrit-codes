@@ -79,3 +79,20 @@ var b= "False";
  else{
     console.log("adult")
  }
+
+ //array methods
+ let arr2=["neel",'heet',34,45]
+ console.log(arr2.length)
+ arr2.push('YASH')
+ arr2.pop('neel')
+ arr2.shift()
+ arr2.unshift()
+ console.log(arr2)
+ 
+ //string method
+ let Str3="Neel is good boy"
+ console.log(Str3.length)
+ console.log(Str3.toUpperCase())
+ console.log(Str3.toLowerCase())
+console.log(Str3.slice(3 ,6))
+console.log(Str3.replace("Neel" ,"THala"))
